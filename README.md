@@ -29,8 +29,8 @@ Ensure you have the following installed:
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yusufbek-murodov/chat-with-pdfs.git
-   cd https://github.com/yusufbek-murodov/chat-with-pdfs.git
+   git clone <repository_url>
+   cd <repository_name>
    ```
 2. Install dependencies:
    ```bash
@@ -51,6 +51,8 @@ Ensure you have the following installed:
 2. Open the URL provided in the terminal to access the app.
 3. Use the sidebar to upload PDF files.
 4. Ask questions about the content in the main interface.
+
+Alternatively, you can try the deployed version of this app [here](https://chat-with-pdfs-yusufbek.streamlit.app/).
 
 ## Project Structure
 ```
@@ -101,20 +103,6 @@ Handles user questions and provides responses.
 ### `main()`
 Sets up the Streamlit interface and handles user interactions.
 
-## Optimizations
-The code includes several optimizations for performance and maintainability:
-- Dynamic chunk sizing for text splitting.
-- Parallel processing for faster PDF text extraction.
-- Cached vector store loading to avoid redundant computation.
-- Robust error handling and logging.
-
-## Future Improvements
-- Add support for more file types (e.g., Word documents).
-- Enable multi-user sessions with individual vector stores.
-- Improve UI/UX with file preview and real-time response display.
-
-## Contributing
-Contributions are welcome! Feel free to submit a pull request or open an issue for bug fixes or feature requests.
 
 ## License
 This project is licensed under the MIT License. See `LICENSE` for details.
