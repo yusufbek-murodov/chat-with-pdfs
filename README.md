@@ -29,8 +29,8 @@ Ensure you have the following installed:
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_name>
+   git clone https://github.com/yusufbek-murodov/chat-with-pdfs.git
+   cd https://github.com/yusufbek-murodov/chat-with-pdfs.git
    ```
 2. Install dependencies:
    ```bash
